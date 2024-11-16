@@ -153,7 +153,7 @@ function ChucklePostAI(AI_option) {
       const title = document.title;
       
       try {
-        const response = await fetch('https://jsd.cdn.zzko.cn/gh/lcx823/Post-Abstract-AI-NotionNext@master/pastking_gpt.js', {
+        const response = await fetch('https://notion-next-pi-lemon.vercel.app/api/ai/summary', {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
